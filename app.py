@@ -6,4 +6,6 @@ st.header("Mucho gusto, Isabella.")
 image = Image.open("Nala.jpeg")
 st.image(image, caption = "Esta es mi mascota")
 texto = st.text_input ("Imagen texto"," texto inicial")
-st.write("El texto que has escrito es", texto)
+  st.write("El texto que has escrito es", texto)
+st.button("presiona el botón"):
+  st.write("has presionado")
